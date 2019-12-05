@@ -6,7 +6,8 @@ SIGNS_LOOKUP = {
         (1, 0, 1, 1): 'Turn Back', # turnBack
     }
     
-    The sign_lookup matrix is defined to distinguish between ahead, back, left and right showing traffic signals. The algorithm can be used to define
-    other traffic signs also. Video is captured using a webcam and output window is generated after initial code run.
+    
+    
+The sign_lookup matrix is defined to distinguish between ahead, back, left and right showing traffic signals. The algorithm can be used to define other traffic signs also. Video is captured using a webcam and output window is generated after initial code run. Test it on the sample images. currently works on these four signs, you can add up more sign matrices and also define functions for traffic signals.
     
     Compiled on Python 3.6.2
